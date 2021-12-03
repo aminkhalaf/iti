@@ -1,0 +1,12 @@
+sudo apt-get install git
+git config --global user.name "aminkhalaf"
+git config --global user.email "max.mido74@yahoo.com"
+git config --list
+git init
+touch file name
+git status
+git branch -M main
+git remote add origin git@github.com:aminkhalaf/iti.git
+git add .
+git commit -m "my comment"
+git push origin main
